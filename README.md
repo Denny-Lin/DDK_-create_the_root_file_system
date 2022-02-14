@@ -57,7 +57,7 @@
     cd ~/rootfs
     sudo mknod -m 666 dev/null c 1 3
     sudo mknod -m 660 dev/console c 5 1
-
+##
 7.Create the root file system  
 cd ~/rootfs
 find . | cpio -H newc -ov --owner root:root > ../initramfs.cpio
