@@ -50,7 +50,7 @@
 
 4.Copy tools into the root file system
     cp -r -a /home/denny/Desktop/busybox/_install/* /home/denny/rootfs
-
+*/
 5.Copy kernel modules if you have them
 
 6.Make device nodes for busybox
