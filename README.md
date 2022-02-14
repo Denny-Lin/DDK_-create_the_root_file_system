@@ -1,7 +1,7 @@
 # DDK_create_the_root_file_system
 
 ```C
-1. make directories for the root file system
+1. Make directories for the root file system
     mkdir ~/rootfs
     cd ~/rootfs
     mkdir bin dev etc home lib proc sbin sys tmp usr var
