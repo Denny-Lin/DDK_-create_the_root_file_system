@@ -27,7 +27,7 @@
     └── var
         └── log
  
-2.Download and Install busybox
+2.Download and Install the busybox
     cd ~/Desktop/
     git clone git://busybox.net/busybox.git
     cd busybox
@@ -53,7 +53,7 @@
 */
 5.Copy kernel modules if you have them
 
-6.Make device nodes for busybox
+6.Make device nodes for the busybox needed
     cd ~/rootfs
     sudo mknod -m 666 dev/null c 1 3
     sudo mknod -m 660 dev/console c 5 1
